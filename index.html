@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Di Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- LOGIN PAGE -->
+<div class="login-box" id="login">
+    <h2>🔐 AI Di Sekolah</h2>
+    <p>Masuk ke Dunia AI Pendidikan</p>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Masuk Dunia AI</button>
+    <p id="error"></p>
+</div>
+
+<!-- DASHBOARD -->
+<div class="container" id="dashboard">
+    <nav>
+        <h3>🤖 AI Di Sekolah</h3>
+        <div class="menu">
+            <a href="#deskripsi">Deskripsi</a>
+            <a href="#dampak">Dampak</a>
+            <a href="#penyebab">Penyebab</a>
+            <a href="#faktor">Faktor</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </div>
+    </nav>
+
+    <section id="deskripsi">
+        <h2>📘 Deskripsi AI di Sekolah</h2>
+        <p>
+            Artificial Intelligence (AI) di sekolah digunakan untuk mengklasifikasikan
+            kemampuan, minat, dan pola belajar siswa. Sistem ini membantu guru
+            memberikan pembelajaran yang lebih personal dan efektif.
+        </p>
+        <img src="https://images.unsplash.com/photo-1581092919535-7146c9a1b71b" alt="AI Sekolah">
+    </section>
+
+    <section id="dampak">
+        <h2>⚖️ Dampak Positif & Negatif</h2>
+        <h4>✅ Dampak Positif</h4>
+        <ul>
+            <li>Pembelajaran lebih personal</li>
+            <li>Evaluasi siswa lebih akurat</li>
+            <li>Menghemat waktu guru</li>
+        </ul>
+
+        <h4>❌ Dampak Negatif</h4>
+        <ul>
+            <li>Risiko kebocoran data</li>
+            <li>Ketergantungan pada teknologi</li>
+            <li>Potensi ketidakadilan algoritma</li>
+        </ul>
+    </section>
+
+    <section id="penyebab">
+        <h2>🔍 Penyebab Penggunaan AI</h2>
+        <p>
+            AI digunakan di sekolah karena meningkatnya jumlah data siswa,
+            tuntutan pendidikan modern, serta kebutuhan pembelajaran yang
+            cepat, adaptif, dan berbasis teknologi.
+        </p>
+    </section>
+
+    <section id="faktor">
+        <h2>📊 Faktor yang Mempengaruhi</h2>
+        <ul>
+            <li>Kualitas data siswa</li>
+            <li>Algoritma AI</li>
+            <li>Etika dan regulasi</li>
+            <li>Infrastruktur teknologi</li>
+            <li>Kesiapan guru dan siswa</li>
+        </ul>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
